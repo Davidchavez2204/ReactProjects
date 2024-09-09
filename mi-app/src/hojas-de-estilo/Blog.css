@@ -1,0 +1,20 @@
+@media(min-width: 768px){
+    .blog{
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     column-gap: 4rem;
+    }
+   .separador{
+      
+      grid-row: 1/2;
+      grid-column: 1/2;  
+   }
+}
+.entrada{
+ border-bottom: 1px solid var(--gris);
+ margin-bottom: 2rem;
+}
+.entrada:last-of-type{
+ border: none;
+ margin-bottom: 0;
+}
