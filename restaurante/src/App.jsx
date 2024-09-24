@@ -1,10 +1,15 @@
 import './App.css';
-import Header from './componentes/header';
+import Inicio from './componentes/inicio';
+import logo from './img/logo.png'
+import fondo from './img/fondo.jpg'
 
 function App() {
   return (
     <>
-      <Header/>
+      <Inicio
+      imagen1={fondo}
+      imagen2={logo}
+      />
     </>
   )
 }
